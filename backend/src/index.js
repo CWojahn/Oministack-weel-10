@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const routes = require('./routes');
 const app = express();
 
-mongoose.connect('mongodb+srv://omnistack:Desde_1989@cluster0-5atvi.mongodb.net/week10?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://omnistack:<password>@cluster0-5atvi.mongodb.net/week10?retryWrites=true&w=majority',{
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
